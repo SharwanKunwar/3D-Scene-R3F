@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Canvas } from "@react-three/fiber";
-import Myscene from "./components/Myscene";
+import Myscene from '../components/Myscene'; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
